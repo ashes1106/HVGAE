@@ -1,0 +1,32 @@
+# --------------------- dblp ---------------------
+dblp:
+  activation: prelu
+  alpha_l: 2
+  attn_drop: 0.3
+  dataset: dblp
+  decoder: han
+  encoder: han
+  eva_lr: 0.01
+  eva_wd: 0
+  feat_drop: 0.2
+  feat_mask_rate: 0.3
+  gpu: 0
+  hidden_dim: 1024
+  l2_coef: 0
+  leave_unchanged: 0.3
+  loss_fn: esce
+  lr: 0.0004  
+  n_labels: 4
+  negative_slope: 0.2
+  nei_num: 1
+  norm: None
+  num_heads: 4
+  num_layers: 3
+  num_out_heads: 1
+  optimizer: adam
+  patience: 10
+  replace_rate: 0.3
+  residual: false
+  scheduler: true
+  scheduler_gamma: 0.99  
+ 
